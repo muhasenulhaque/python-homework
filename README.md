@@ -7,7 +7,7 @@ print("----------------------------------")
 from pathlib import Path
 import pandas as pd
 import csv
-filepath = (r"C:\Users\muhas\Downloads\python-homework\PyBank\budget_data.csv")
+filepath = Path('/python-homework/PyBank/budget_data.csv")
 data = pd.read_csv(filepath)
 #counting number of months and pringint
 len(data)
